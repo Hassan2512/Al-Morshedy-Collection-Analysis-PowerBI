@@ -1,48 +1,64 @@
-# Al-Morshedy Collection Analysis Dashboard
+# Al-Morshedy Collection Analysis & Financial Risk Dashboard
+
+A Power BI dashboard developed to analyze real-estate sales, collection performance, outstanding balances, payment methods, and financial indicators across multiple projects.
+
+> **Team Graduation Project** — Developed by a team of 4 members as part of the Route Data Analysis Program.
+
+---
 
 ## 📊 Project Overview
 
-This project is an interactive **Power BI dashboard** developed to analyze collection performance and financial indicators across Al-Morshedy's real-estate projects.
+The **Al-Morshedy Collection Analysis & Financial Risk Dashboard** is an interactive Power BI solution designed to provide a clear view of collection performance across a real-estate project portfolio.
 
-The dashboard provides both **global-level analysis** and **project-level analysis**, helping users monitor collections, outstanding amounts, payment methods, banks, and collection performance.
+The dashboard enables users to monitor and analyze key financial and collection metrics, including:
 
-The project was developed as a **team graduation project by 4 members** as part of the Route Data Analysis program.
+- Sales and invoiced amounts
+- Collected amounts
+- Outstanding balances
+- Collection performance
+- Bank and cash payments
+- Bank-wise analysis
+- Installment-level performance
+- Collection trends over time
+
+The project includes both **global portfolio analysis** and **project-level dashboards**.
 
 ---
 
 ## 🎯 Project Objectives
 
-The dashboard aims to:
+The dashboard was designed to help users:
 
-- Monitor collection performance across real-estate projects.
-- Analyze collected and outstanding amounts.
-- Compare project-level financial performance.
-- Analyze collections by payment method.
-- Compare **Bank** and **Cash** collections.
-- Analyze outstanding amounts by bank.
-- Track collection performance over time.
-- Provide interactive insights to support data-driven decision-making.
+- Monitor collection performance across projects.
+- Track collected and outstanding amounts.
+- Compare project performance.
+- Analyze **Bank vs. Cash** collections.
+- Analyze collection performance by bank.
+- Monitor installment-level payment performance.
+- Track collection trends over time.
+- Support data-driven financial decision-making.
 
 ---
 
 ## 🏗️ Dashboard Structure
 
-The dashboard is organized into two main levels:
+The dashboard is divided into two main levels:
 
-### 1. Global Analysis
+### Global Analysis
 
 - Home
 - Global Summary
-- Collection By Date
+- Collection by Date
 
-### 2. Project-Level Analysis
+### Project-Level Analysis
 
-Each project includes dedicated pages for:
+Each project contains dedicated analytical views:
 
-- Overall Analysis
-- Bank Analysis
-- Cash Analysis
-- Bank-Wise Analysis
+- Home
+- Overall
+- Bank
+- Cash
+- Bank-Wise
 
 ---
 
@@ -50,65 +66,57 @@ Each project includes dedicated pages for:
 
 ## 🏠 Global Home
 
-The main landing page provides navigation to the global analysis sections and available projects.
+The main landing page provides navigation to the global analysis sections and different real-estate projects.
 
 ![Global Home](Screenshots/01-Home.png)
 
 ---
 
-## 📈 Global Summary
+## 🌐 Global Summary
 
-Provides an overall view of collection and financial performance across the projects.
+Provides an overall view of the project portfolio and key collection and financial metrics.
 
 ![Global Summary](Screenshots/02-Global-Summary.png)
 
 ---
 
-## 📅 Collection By Date
+## 📅 Collection by Date
 
-Provides time-based analysis to monitor collection and outstanding performance.
+Analyzes collection performance over time and supports tracking collection and outstanding trends.
 
-![Collection By Date](Screenshots/03-Collection-By-Date.png)
+![Collection by Date](Screenshots/03-Collection-By-Date.png)
 
 ---
 
 # 🏢 Crystal Plaza Maadi Compound
 
-## 🏠 Project Home
+The following pages represent the Crystal Plaza Maadi Compound dashboard.
 
-The landing page provides navigation between the project's analytical views.
+## Home
 
 ![Crystal Plaza Home](Screenshots/04-Crystal-Plaza-Home.png)
 
----
-
-## 📊 Overall Analysis
+## Overall Analysis
 
 Provides an overview of the project's collection and financial performance.
 
 ![Crystal Plaza Overall](Screenshots/05-Crystal-Plaza-Overall.png)
 
----
+## Bank Analysis
 
-## 🏦 Bank Analysis
-
-Focuses on collection performance related to bank payments.
+Focuses on bank-related collection performance.
 
 ![Crystal Plaza Bank](Screenshots/06-Crystal-Plaza-Bank.png)
 
----
+## Cash Analysis
 
-## 💰 Cash Analysis
-
-Focuses on collection performance related to cash payments.
+Focuses on direct cash collection performance.
 
 ![Crystal Plaza Cash](Screenshots/07-Crystal-Plaza-Cash.png)
 
----
+## Bank-Wise Analysis
 
-## 🏦 Bank-Wise Analysis
-
-Provides a breakdown of collection and outstanding amounts by bank.
+Provides a detailed breakdown of collection performance by bank.
 
 ![Crystal Plaza Bank-Wise](Screenshots/08-Crystal-Plaza-Bank-Wise.png)
 
@@ -116,24 +124,55 @@ Provides a breakdown of collection and outstanding amounts by bank.
 
 # 🏘️ Rihana Project
 
-The repository also includes dashboard views developed for the **Rihana Project**, covering the project's home and analytical pages.
+The following pages represent the Rihana project dashboard.
 
-> Rihana dashboard screenshots are available in the `Screenshots` folder.
+## Home
+
+![Rihana Home](Screenshots/09-Rihana-Home.png)
+
+## Overall Analysis
+
+Provides an overview of collection and financial performance for the Rihana project.
+
+![Rihana Overall](Screenshots/10-Rihana-Overall.png)
+
+## Bank Analysis
+
+Focuses on bank-related collection performance.
+
+![Rihana Bank](Screenshots/11-Rihana-Bank.png)
+
+## Cash Analysis
+
+Focuses on direct cash collection performance.
+
+![Rihana Cash](Screenshots/12-Rihana-Cash.png)
+
+## Bank-Wise Analysis
+
+Provides a detailed breakdown of collection performance by bank.
+
+![Rihana Bank-Wise](Screenshots/13-Rihana-Bank-Wise.png)
 
 ---
 
-# 📈 Key Analysis Areas
+# 📈 Key Metrics
 
-The dashboard focuses on key collection and financial analysis areas, including:
+The dashboard includes key business and financial metrics such as:
 
-- Collection Performance
-- Outstanding Amounts
-- Payment Methods
-- Bank Collections
-- Cash Collections
-- Bank-Wise Analysis
-- Project-Level Analysis
-- Collection Trends Over Time
+- Sold Units
+- Unit Price
+- Invoiced Amount
+- Collected Amount
+- Outstanding Balance
+- Collection Rate
+- Outstanding Amount
+- Outstanding Percentage
+- Bank Outstanding
+- Cash Outstanding
+- Issued Invoices
+- Collected Invoices
+- Project Performance Indicators
 
 ---
 
@@ -142,34 +181,40 @@ The dashboard focuses on key collection and financial analysis areas, including:
 - **Microsoft Power BI**
 - **Power Query** — Data cleaning and transformation
 - **DAX** — Calculated measures and business logic
-- **Git & GitHub**
-- **Git LFS** — Used to store the Power BI `.pbix` file
+- **Data Modeling**
+- **Interactive Dashboard Design**
 
 ---
 
 # 👥 Team Project
 
-This dashboard was developed as a **team project by 4 members**.
-
-The project involved collaborative work across different parts of the dashboard and analysis.
+This project was developed by a team of **4 members** as part of the **Route Data Analysis Graduation Project**.
 
 ## My Contribution
 
-My contribution focused on the dashboard pages and user experience for:
+My contribution focused on the dashboard pages and user navigation for:
 
-- **Crystal Plaza Maadi Compound**
-- **Rihana Project**
+### Crystal Plaza Maadi Compound
 
-My work included:
+- Project Home Page
+- Overall Analysis
+- Bank Analysis
+- Cash Analysis
+- Bank-Wise Analysis
 
-- Designing project home pages.
-- Building project navigation between dashboard sections.
-- Creating and organizing project-level views.
-- Maintaining a consistent user experience across the pages I worked on.
+### Rihana Project
+
+- Project Home Page
+- Overall Analysis
+- Bank Analysis
+- Cash Analysis
+- Bank-Wise Analysis
+
+My work included designing the dashboard layout, organizing visuals, and creating a consistent navigation experience between the project pages and the global dashboard.
 
 ---
 
-# 📂 Repository Structure
+# 📁 Repository Structure
 
 ```text
 Al-Morshedy-Collection-Analysis-PowerBI/
@@ -186,6 +231,10 @@ Al-Morshedy-Collection-Analysis-PowerBI/
 │   ├── 06-Crystal-Plaza-Bank.png
 │   ├── 07-Crystal-Plaza-Cash.png
 │   ├── 08-Crystal-Plaza-Bank-Wise.png
-│   └── Additional Rihana dashboard screenshots
+│   ├── 09-Rihana-Home.png
+│   ├── 10-Rihana-Overall.png
+│   ├── 11-Rihana-Bank.png
+│   ├── 12-Rihana-Cash.png
+│   └── 13-Rihana-Bank-Wise.png
 │
 └── README.md
